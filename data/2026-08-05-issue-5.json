@@ -1,0 +1,744 @@
+{
+  "_meta": {
+    "window": "2026-08-04 08:39 ~ 2026-08-05 17:26 (Asia/Shanghai)",
+    "period": "issue-5",
+    "prompts": 45,
+    "engines_queried": 12,
+    "engines_with_full_coverage": 10,
+    "engine_notes": "claude 本轮主动未运行；gemini 因登录态失效仅跑到 28/45，其读数不进可靠区间",
+    "citations_total": 4636,
+    "unique_domains": 1174,
+    "caveats": [
+      "单一商户题集的一次实测，不是行业均值",
+      "域名出现在引用池 ≠ 该域名下某篇特定文章被引用——这两件事我们自己就搞混过一次",
+      "引用数是 URL 出现次数，同一 URL 在不同题/不同引擎下重复出现会重复计数"
+    ]
+  },
+  "citations_by_engine": {
+    "wenxin": 898,
+    "doubao": 782,
+    "hunyuan": 705,
+    "deepseek": 489,
+    "glm": 408,
+    "stepfun": 389,
+    "qwen": 384,
+    "kimi": 218,
+    "chatgpt": 163,
+    "perplexity": 161,
+    "gemini": 39
+  },
+  "top_domains": [
+    {
+      "domain": "cnblogs.com",
+      "citations": 258
+    },
+    {
+      "domain": "blog.csdn.net",
+      "citations": 203
+    },
+    {
+      "domain": "iesdouyin.com",
+      "citations": 166
+    },
+    {
+      "domain": "baijiahao.baidu.com",
+      "citations": 152
+    },
+    {
+      "domain": "ithome.com",
+      "citations": 141
+    },
+    {
+      "domain": "m.toutiao.com",
+      "citations": 125
+    },
+    {
+      "domain": "jiemian.com",
+      "citations": 119
+    },
+    {
+      "domain": "developer.volcengine.com",
+      "citations": 89
+    },
+    {
+      "domain": "page.sm.cn",
+      "citations": 80
+    },
+    {
+      "domain": "cet.com.cn",
+      "citations": 77
+    },
+    {
+      "domain": "bilibili.com",
+      "citations": 76
+    },
+    {
+      "domain": "mp.weixin.qq.com",
+      "citations": 66
+    },
+    {
+      "domain": "cloud.tencent.com",
+      "citations": 63
+    },
+    {
+      "domain": "zhuanlan.zhihu.com",
+      "citations": 61
+    },
+    {
+      "domain": "a.newrank.cn",
+      "citations": 56
+    },
+    {
+      "domain": "baike.baidu.com",
+      "citations": 53
+    },
+    {
+      "domain": "zgswcn.com",
+      "citations": 51
+    },
+    {
+      "domain": "toutiao.com",
+      "citations": 46
+    },
+    {
+      "domain": "m.sohu.com",
+      "citations": 44
+    },
+    {
+      "domain": "chinadevelopment.com.cn",
+      "citations": 44
+    },
+    {
+      "domain": "developer.aliyun.com",
+      "citations": 43
+    },
+    {
+      "domain": "new.qq.com",
+      "citations": 42
+    },
+    {
+      "domain": "sohu.com",
+      "citations": 40
+    },
+    {
+      "domain": "m.jiemian.com",
+      "citations": 40
+    },
+    {
+      "domain": "163.com",
+      "citations": 36
+    },
+    {
+      "domain": "geo.newrank.cn",
+      "citations": 34
+    },
+    {
+      "domain": "so.html5.qq.com",
+      "citations": 31
+    },
+    {
+      "domain": "quanmin.baidu.com",
+      "citations": 27
+    },
+    {
+      "domain": "csdn.net",
+      "citations": 27
+    },
+    {
+      "domain": "m.163.com",
+      "citations": 24
+    },
+    {
+      "domain": "arxiv.org",
+      "citations": 24
+    },
+    {
+      "domain": "bjnews.com.cn",
+      "citations": 24
+    },
+    {
+      "domain": "github.com",
+      "citations": 23
+    },
+    {
+      "domain": "nntv.cn",
+      "citations": 23
+    },
+    {
+      "domain": "segmentfault.com",
+      "citations": 21
+    },
+    {
+      "domain": "m.tech.china.com",
+      "citations": 21
+    },
+    {
+      "domain": "aiyingli.com",
+      "citations": 19
+    },
+    {
+      "domain": "aidso.com",
+      "citations": 19
+    },
+    {
+      "domain": "hayepusi.com",
+      "citations": 18
+    },
+    {
+      "domain": "aigcmkt.com",
+      "citations": 17
+    },
+    {
+      "domain": "dzwww.com",
+      "citations": 14
+    },
+    {
+      "domain": "juejin.cn",
+      "citations": 14
+    },
+    {
+      "domain": "semrush.com",
+      "citations": 13
+    },
+    {
+      "domain": "cloud.tencent.cn",
+      "citations": 13
+    },
+    {
+      "domain": "gitcode.csdn.net",
+      "citations": 13
+    },
+    {
+      "domain": "cloud.tencent.com.cn",
+      "citations": 12
+    },
+    {
+      "domain": "news.qq.com",
+      "citations": 12
+    },
+    {
+      "domain": "view.inews.qq.com",
+      "citations": 11
+    },
+    {
+      "domain": "geekpark.net",
+      "citations": 11
+    },
+    {
+      "domain": "bxtdata.com",
+      "citations": 11
+    },
+    {
+      "domain": "dageno.ai",
+      "citations": 11
+    },
+    {
+      "domain": "jssdw.com",
+      "citations": 11
+    },
+    {
+      "domain": "36kr.com",
+      "citations": 10
+    },
+    {
+      "domain": "techradar.com",
+      "citations": 10
+    },
+    {
+      "domain": "m.chinadevelopment.com.cn",
+      "citations": 10
+    },
+    {
+      "domain": "finance.sina.com.cn",
+      "citations": 10
+    },
+    {
+      "domain": "otterly.ai",
+      "citations": 10
+    },
+    {
+      "domain": "finance.ifeng.com",
+      "citations": 10
+    },
+    {
+      "domain": "m.ctrip.com",
+      "citations": 10
+    },
+    {
+      "domain": "hepan.com",
+      "citations": 10
+    },
+    {
+      "domain": "deepseek.csdn.net",
+      "citations": 10
+    },
+    {
+      "domain": "mparticle.uc.cn",
+      "citations": 9
+    },
+    {
+      "domain": "cloud.baidu.com",
+      "citations": 9
+    },
+    {
+      "domain": "i.ifeng.com",
+      "citations": 9
+    },
+    {
+      "domain": "tech.ifeng.com",
+      "citations": 9
+    },
+    {
+      "domain": "geoshizhan.com",
+      "citations": 9
+    },
+    {
+      "domain": "economy.enorth.com.cn",
+      "citations": 8
+    },
+    {
+      "domain": "qiye.eastday.com",
+      "citations": 8
+    },
+    {
+      "domain": "chromewebstore.google.com",
+      "citations": 8
+    },
+    {
+      "domain": "blog.hubspot.com",
+      "citations": 8
+    },
+    {
+      "domain": "reddit.com",
+      "citations": 8
+    },
+    {
+      "domain": "tidenews.com.cn",
+      "citations": 8
+    },
+    {
+      "domain": "stdaily.com",
+      "citations": 8
+    },
+    {
+      "domain": "zhituishidai.com",
+      "citations": 8
+    },
+    {
+      "domain": "wap.yesky.com",
+      "citations": 8
+    },
+    {
+      "domain": "zhihu.com",
+      "citations": 7
+    },
+    {
+      "domain": "amicited.com",
+      "citations": 7
+    },
+    {
+      "domain": "haokan.baidu.com",
+      "citations": 7
+    },
+    {
+      "domain": "ex.chinadaily.com.cn",
+      "citations": 7
+    },
+    {
+      "domain": "bjd.com.cn",
+      "citations": 7
+    },
+    {
+      "domain": "post.smzdm.com",
+      "citations": 7
+    },
+    {
+      "domain": "caifuhao.eastmoney.com",
+      "citations": 7
+    },
+    {
+      "domain": "aiqicha.baidu.com",
+      "citations": 7
+    },
+    {
+      "domain": "douchacha.com",
+      "citations": 7
+    },
+    {
+      "domain": "meltwater.com",
+      "citations": 7
+    },
+    {
+      "domain": "jianghu.taobao.com",
+      "citations": 7
+    },
+    {
+      "domain": "tianqi.csdn.net",
+      "citations": 7
+    },
+    {
+      "domain": "cnabke.com",
+      "citations": 7
+    },
+    {
+      "domain": "finance.eastmoney.com",
+      "citations": 6
+    },
+    {
+      "domain": "ahrefs.com",
+      "citations": 6
+    },
+    {
+      "domain": "zenodo.org",
+      "citations": 6
+    },
+    {
+      "domain": "xhby.net",
+      "citations": 6
+    },
+    {
+      "domain": "itbear.com.cn",
+      "citations": 6
+    },
+    {
+      "domain": "chinaz.com",
+      "citations": 6
+    },
+    {
+      "domain": "pypi.org",
+      "citations": 6
+    },
+    {
+      "domain": "aisearch.similarweb.com",
+      "citations": 6
+    },
+    {
+      "domain": "zkxww.com",
+      "citations": 6
+    },
+    {
+      "domain": "searchless.ai",
+      "citations": 6
+    },
+    {
+      "domain": "webfx.com",
+      "citations": 6
+    },
+    {
+      "domain": "shangyexinzhi.com",
+      "citations": 6
+    }
+  ],
+  "top_domains_by_prompt_layer": {
+    "long": [
+      {
+        "domain": "baijiahao.baidu.com",
+        "citations": 33
+      },
+      {
+        "domain": "blog.csdn.net",
+        "citations": 28
+      },
+      {
+        "domain": "mp.weixin.qq.com",
+        "citations": 25
+      },
+      {
+        "domain": "cnblogs.com",
+        "citations": 23
+      },
+      {
+        "domain": "iesdouyin.com",
+        "citations": 23
+      },
+      {
+        "domain": "m.toutiao.com",
+        "citations": 20
+      },
+      {
+        "domain": "page.sm.cn",
+        "citations": 20
+      },
+      {
+        "domain": "bilibili.com",
+        "citations": 15
+      },
+      {
+        "domain": "hayepusi.com",
+        "citations": 14
+      },
+      {
+        "domain": "ithome.com",
+        "citations": 12
+      },
+      {
+        "domain": "m.sohu.com",
+        "citations": 12
+      },
+      {
+        "domain": "sohu.com",
+        "citations": 11
+      },
+      {
+        "domain": "jiemian.com",
+        "citations": 9
+      },
+      {
+        "domain": "csdn.net",
+        "citations": 7
+      },
+      {
+        "domain": "m.163.com",
+        "citations": 6
+      }
+    ],
+    "tech": [
+      {
+        "domain": "blog.csdn.net",
+        "citations": 36
+      },
+      {
+        "domain": "iesdouyin.com",
+        "citations": 30
+      },
+      {
+        "domain": "baijiahao.baidu.com",
+        "citations": 26
+      },
+      {
+        "domain": "cloud.tencent.com",
+        "citations": 25
+      },
+      {
+        "domain": "m.toutiao.com",
+        "citations": 21
+      },
+      {
+        "domain": "bilibili.com",
+        "citations": 16
+      },
+      {
+        "domain": "cnblogs.com",
+        "citations": 16
+      },
+      {
+        "domain": "zhuanlan.zhihu.com",
+        "citations": 15
+      },
+      {
+        "domain": "developer.aliyun.com",
+        "citations": 14
+      },
+      {
+        "domain": "page.sm.cn",
+        "citations": 14
+      },
+      {
+        "domain": "m.sohu.com",
+        "citations": 11
+      },
+      {
+        "domain": "ithome.com",
+        "citations": 10
+      },
+      {
+        "domain": "quanmin.baidu.com",
+        "citations": 8
+      },
+      {
+        "domain": "segmentfault.com",
+        "citations": 8
+      },
+      {
+        "domain": "163.com",
+        "citations": 7
+      }
+    ],
+    "core": [
+      {
+        "domain": "cnblogs.com",
+        "citations": 138
+      },
+      {
+        "domain": "blog.csdn.net",
+        "citations": 102
+      },
+      {
+        "domain": "iesdouyin.com",
+        "citations": 75
+      },
+      {
+        "domain": "jiemian.com",
+        "citations": 71
+      },
+      {
+        "domain": "ithome.com",
+        "citations": 70
+      },
+      {
+        "domain": "baijiahao.baidu.com",
+        "citations": 62
+      },
+      {
+        "domain": "developer.volcengine.com",
+        "citations": 54
+      },
+      {
+        "domain": "m.toutiao.com",
+        "citations": 49
+      },
+      {
+        "domain": "bilibili.com",
+        "citations": 45
+      },
+      {
+        "domain": "page.sm.cn",
+        "citations": 42
+      },
+      {
+        "domain": "cet.com.cn",
+        "citations": 37
+      },
+      {
+        "domain": "zgswcn.com",
+        "citations": 33
+      },
+      {
+        "domain": "zhuanlan.zhihu.com",
+        "citations": 30
+      },
+      {
+        "domain": "a.newrank.cn",
+        "citations": 28
+      },
+      {
+        "domain": "cloud.tencent.com",
+        "citations": 28
+      }
+    ],
+    "compete": [
+      {
+        "domain": "ithome.com",
+        "citations": 38
+      },
+      {
+        "domain": "blog.csdn.net",
+        "citations": 32
+      },
+      {
+        "domain": "iesdouyin.com",
+        "citations": 29
+      },
+      {
+        "domain": "cnblogs.com",
+        "citations": 27
+      },
+      {
+        "domain": "jiemian.com",
+        "citations": 23
+      },
+      {
+        "domain": "a.newrank.cn",
+        "citations": 21
+      },
+      {
+        "domain": "developer.volcengine.com",
+        "citations": 19
+      },
+      {
+        "domain": "cet.com.cn",
+        "citations": 19
+      },
+      {
+        "domain": "baijiahao.baidu.com",
+        "citations": 15
+      },
+      {
+        "domain": "m.toutiao.com",
+        "citations": 15
+      },
+      {
+        "domain": "geo.newrank.cn",
+        "citations": 14
+      },
+      {
+        "domain": "aidso.com",
+        "citations": 12
+      },
+      {
+        "domain": "aiyingli.com",
+        "citations": 12
+      },
+      {
+        "domain": "baike.baidu.com",
+        "citations": 11
+      },
+      {
+        "domain": "163.com",
+        "citations": 11
+      }
+    ],
+    "local": [
+      {
+        "domain": "cnblogs.com",
+        "citations": 54
+      },
+      {
+        "domain": "m.toutiao.com",
+        "citations": 20
+      },
+      {
+        "domain": "baijiahao.baidu.com",
+        "citations": 16
+      },
+      {
+        "domain": "jiemian.com",
+        "citations": 13
+      },
+      {
+        "domain": "baike.baidu.com",
+        "citations": 12
+      },
+      {
+        "domain": "jssdw.com",
+        "citations": 11
+      },
+      {
+        "domain": "ithome.com",
+        "citations": 11
+      },
+      {
+        "domain": "cet.com.cn",
+        "citations": 10
+      },
+      {
+        "domain": "chinadevelopment.com.cn",
+        "citations": 10
+      },
+      {
+        "domain": "iesdouyin.com",
+        "citations": 9
+      },
+      {
+        "domain": "m.163.com",
+        "citations": 9
+      },
+      {
+        "domain": "nntv.cn",
+        "citations": 8
+      },
+      {
+        "domain": "m.ctrip.com",
+        "citations": 8
+      },
+      {
+        "domain": "hepan.com",
+        "citations": 7
+      },
+      {
+        "domain": "mapbox.com",
+        "citations": 6
+      }
+    ]
+  }
+}
