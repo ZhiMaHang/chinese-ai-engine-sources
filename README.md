@@ -1,4 +1,4 @@
-# geo-source-lab · 中文 AI 引擎信源实验室
+# 中文 AI 引擎信源实验室 · chinese-ai-engine-sources
 
 我们每周拿同一套中文题去问一批 AI 引擎，记录**它们回答时引用了哪些网站**，
 然后把这份信源数据原样公开。
