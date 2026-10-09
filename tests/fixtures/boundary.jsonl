@@ -1,0 +1,4 @@
+{"engine": "doubao", "url": "https://example.org/article/123456"}
+{"engine": "deepseek", "url": "https://example.org/article/1234567"}
+{"engine": "kimi", "url": "https://mp.weixin.qq.com/s/AbCdEfGh1jKlMnOp"}
+{"engine": "qwen", "url": "https://mp.weixin.qq.com/s/AbCdEfGh1jKlMnOpQ"}
